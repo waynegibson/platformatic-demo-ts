@@ -1,0 +1,40 @@
+{
+  "$schema": "https://platformatic.dev/schemas/v0.26.1/composer",
+  "server": {
+    "hostname": "{PLT_SERVER_HOSTNAME}",
+    "port": "{PORT}",
+    "logger": {
+      "level": "{PLT_SERVER_LOGGER_LEVEL}"
+    }
+  },
+  "composer": {
+    "services": [
+      {
+        "id": "database-one",
+        "openapi": {
+          "url": "/documentation/json"
+        }
+      },
+      {
+        "id": "database-two",
+        "openapi": {
+          "url": "/documentation/json"
+        }
+      },
+      {
+        "id": "service-auth",
+        "openapi": {
+          "url": "/documentation/json"
+        }
+      },
+      {
+        "id": "service-membership",
+        "openapi": {
+          "url": "/documentation/json"
+        }
+      }
+    ],
+    "refreshTimeout": 5000
+  },
+  "watch": true
+}
