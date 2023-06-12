@@ -16,25 +16,21 @@
         }
       },
       {
-        "id": "database-two",
-        "openapi": {
-          "url": "/documentation/json"
-        }
-      },
-      {
         "id": "service-auth",
         "openapi": {
+          "prefix": "/auth",
           "url": "/documentation/json"
         }
       },
       {
         "id": "service-membership",
         "openapi": {
+          "prefix": "/membership",
           "url": "/documentation/json"
         }
       }
     ],
-    "refreshTimeout": 5000
+    "refreshTimeout": 1000
   },
   "watch": true
 }

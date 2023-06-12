@@ -8,7 +8,13 @@
     }
   },
   "service": {
-    "openapi": true
+    "openapi": {
+      "info": {
+        "title": "Auth Service",
+        "description": "Exposing a SQL database as REST",
+        "version": "1.0"
+      }
+    }
   },
   "plugins": {
     "paths": [

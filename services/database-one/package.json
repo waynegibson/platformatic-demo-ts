@@ -3,7 +3,8 @@
     "start": "pnpm clean && platformatic db start",
     "migrate": "platformatic db migrations apply",
     "clean": "rm -fr ./dist",
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "seed": "npx platformatic db seed ./seeder.js"
   },
   "devDependencies": {
     "@platformatic/sql-graphql": "0.26.1",
