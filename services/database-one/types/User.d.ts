@@ -5,7 +5,7 @@
 declare interface User {
     id?: number;
     username: string;
-    displayName: string;
+    nickname: string;
     createdAt?: string | null;
     updatedAt?: string | null;
 }

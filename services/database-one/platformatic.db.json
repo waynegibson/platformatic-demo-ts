@@ -17,7 +17,7 @@
   },
   "plugins": {
     "paths": [
-      "plugins"
+      "./plugins"
     ],
     "typescript": true
   },

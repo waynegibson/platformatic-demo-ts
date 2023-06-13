@@ -16,6 +16,12 @@
         }
       },
       {
+        "id": "database-two",
+        "openapi": {
+          "url": "/documentation/json"
+        }
+      },
+      {
         "id": "service-auth",
         "openapi": {
           "prefix": "/auth",
@@ -25,7 +31,7 @@
       {
         "id": "service-membership",
         "openapi": {
-          "prefix": "/membership",
+          "prefix": "/members",
           "url": "/documentation/json"
         }
       }

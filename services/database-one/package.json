@@ -4,7 +4,8 @@
     "migrate": "platformatic db migrations apply",
     "clean": "rm -fr ./dist",
     "build": "npx tsc",
-    "seed": "npx platformatic db seed ./seeder.js"
+    "seed": "npx platformatic db seed ./seed.js",
+    "postinstall": "npm run clean && npx platformatic db migrations apply && npm run seed"
   },
   "devDependencies": {
     "@platformatic/sql-graphql": "0.26.1",

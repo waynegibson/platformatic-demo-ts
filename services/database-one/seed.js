@@ -3,8 +3,8 @@
 const exampleData = [
   {
     user: {
-      username: 'manuel.lo',
-      displayName: 'Manuel'
+      username: 'janedoe',
+      nickname: 'Jane'
     },
     tasks: [
       { description: 'Write grocery list', priority: 3 },
@@ -16,8 +16,8 @@ const exampleData = [
   },
   {
     user: {
-      username: 'charlie37',
-      displayName: 'Charlie B'
+      username: 'johndoe',
+      nickname: 'John'
     },
     tasks: [
       { description: 'Buy dog snacks', priority: 2 },

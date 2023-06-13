@@ -4,8 +4,8 @@
  */
 declare interface Member {
     id?: number;
-    username: string;
-    displayName: string;
+    firstname: string;
+    lastname: string;
     createdAt?: string | null;
     updatedAt?: string | null;
 }
